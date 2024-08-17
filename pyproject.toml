@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nba-amlaa-assignment1"
+version = "0.1.0"
+description = "This is the python package for advanced machine learning assignment 1 on nba dataset."
+authors = ["ShivamArora99 <Shivam.Arora@student.uts.edu.au>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "2.2.2"
+jupyterlab = "4.2.3"
+scikit-learn = "^1.5.1"
+matplotlib = "^3.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
